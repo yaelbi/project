@@ -1,0 +1,9 @@
+<div class="header">
+  <div class="title">{{title}}</div>
+        <img src='assets\logo.jpg'>
+        <div class="decription">{{decription}}</div>
+       <div class="service">
+         <app-nav *ngFor="let item of ServiceService.headerItems" [text]="item.text" ></app-nav>
+         </div>
+               
+</div>
